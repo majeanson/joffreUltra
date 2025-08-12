@@ -237,7 +237,7 @@ const globalChannel = supabase
 
 // Set up Supabase Realtime subscription for game_rooms table
 const channel = supabase
-  .channel('public:game_rooms') // Subscribe to all changes in public.game_rooms
+  .channel('public:game_rooms') // Subscribe to all changes in public.game_roomss
   .on(
     'postgres_changes',
     {
